@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pochita Page</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+<!-- IMAGEN Y BORDES-->
+<section class="tarea-1">
+    <img id=img1 src="assets/images/pochita_imagen1.jpg" alt="pochita-fluffy">
+</section>
+
+<!--STICKERS-->
+<section class="tarea-2">
+    <h2>Sólo puedes comprar 10 stickers</h2>
+    <div class="stickers">
+        <div class="card">
+            <img src="assets/images/pochita_sticker_1.png" alt="">
+            <p>Pochita Linear</p>
+            <input id="cant1" type="number" min="0">
+        </div>
+        <div class="card">
+            <img src="assets/images/pochita_sticker_2.png" alt="sticker 1">
+            <p>Pochita Capibara</p>
+            <input id="cant2" type="number" min="0">
+        </div>
+        <div class="card">
+            <img src="assets/images/pochita_sticker_3.png" alt="">
+            <p>Pochita 3D</p>
+            <input id="cant3" type="number" min="0">
+        </div>  
+    </div>
+
+    <button class="calculo"> Comprar</button>
+    <p id="resultado"></p>
+</section>
+
+<!--PASSWORD-->
+<section class="tarea-3">
+    <div class="caja">
+        <h2>Ingresa el password</h2>
+        <div class="numeros">
+            <select name="n1" id="num1">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="n2" id="num2">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+            </select>
+            <select name="n3" id="num3">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+            </select>
+        </div>
+        <button class="ingresar">Ingresar</button>
+        <p id="un-success"></p>
+    </div>
+</section>
+  
+
+<script src="assets/js/index.js"></script>
+</body>
+</html>
