@@ -74,6 +74,12 @@ body {
     width:30%;
 }
 
+#cant1,
+#cant2,
+#cant3 {
+    border: 1px solid black;
+}
+
 .calculo{
     width:25%;
     padding: 4px;
